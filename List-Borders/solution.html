@@ -12,18 +12,49 @@
     /* Add these styles in order */
      
     /* Center the title "High Factor Times Tables */
-
+h2{
+  text-align: center;
+}
     /* Display each table in a row with inline-block */
-    
+li{
+  display: inline-block;
+  
+}  
+ol{
+  display: inline-block;
+  width: 80px;
+}  
+
     /* Put a rounded (20px) solid black border box around the timestables div */
+#timestables{
+border-radius: 20px;
+border-style: solid;
+}
+
 
     /* Put a rounded (10px) solid black border box around EACH times table */
-    
+#table{
+  border-radius: 10px;
+  border-style: solid;
+}    
     /* underline the top numbers red */
-    
+  
+  h4{
+    border-bottom: 4px solid red;
+  }
+  li:hover{
+   background-color: black;
+   color:white; 
+   
+  }
+  
+  
     /* go night mode on hovers over each timestable, but not the parent  */
   
     /* 20 px space below the last equation in each table */
+ol{
+  padding-bottom: 20px;
+}
 
     /* add a top margin of 20px on each table, but not the parent */
 
@@ -48,8 +79,8 @@
     <h2>High Factor Times Tables</h2>
     <ol id="tables">
       <li>
-        <ol>
-          <li><h4>7</h4>
+        <ol id = "table">
+          <li><h4 id = "number">7</h4>
           <li>7 X 7 = 49</li>
           <li>7 X 8 = 56</li>
           <li>7 X 9 = 63</li>
@@ -59,8 +90,8 @@
         </ol>
       </li>
       <li> 
-          <ol>
-            <li><h4>8</h4>
+          <ol id = "table">
+            <li><h4 id = "number">8</h4>
             <li>8 X 7 = 56</li>
             <li>8 X 8 = 64</li>
             <li>8 X 9 = 72</li>
@@ -70,8 +101,8 @@
           </ol>
       </li>  
       <li>
-        <ol>
-          <li><h4>9</h4>
+        <ol id = "table">
+          <li><h4 id = "number">9</h4>
           <li>9 X 7 = 63</li>
           <li>9 X 8 = 72</li>
           <li>9 X 9 = 81</li>
@@ -81,8 +112,8 @@
         </ol>
       </li>
       <li>
-      <ol>
-        <li><h4>10</h4>
+      <ol id = "table">
+        <li><h4 id = "number">10</h4>
         <li>10 X 7 = 70</li>
         <li>10 X 8 = 80</li>
         <li>10 X 9 = 90</li>
@@ -92,8 +123,8 @@
       </ol>
     </li>  
     <li>
-      <ol>
-        <li><h4>11</h4>
+      <ol id = "table">
+        <li><h4 id = "number">11</h4>
         <li>11 X 7 = 77</li>
         <li>11 X 8 = 88</li>
         <li>11 X 9 = 99</li>
@@ -103,8 +134,8 @@
         </ol>
       </li> 
       <li>
-        <ol>
-          <li><h4>12</h4>
+        <ol id = "table">
+          <li><h4 id = "number">12</h4>
           <li>12 X 7 = 84</li>
           <li>12 X 8 = 96</li>
           <li>12 X 9 = 108</li>
