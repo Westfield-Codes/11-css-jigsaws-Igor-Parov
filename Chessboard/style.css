@@ -23,3 +23,14 @@ li ol li {
   font-size: 24px;
 
 }
+
+ol#board  li  ol  li {
+    background-color: #f2f2f2; 
+}
+
+
+ol#board  li:nth-child(odd) ol  li:nth-child(even),
+ol#board  li:nth-child(even)  ol  li:nth-child(odd) {
+    background-color: #aca8a8;
+}
+
